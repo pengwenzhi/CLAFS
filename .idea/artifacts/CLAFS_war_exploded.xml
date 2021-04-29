@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="CLAFS:war exploded">
+    <output-path>$PROJECT_DIR$/web</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CLAFS/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CLAFS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/javax.mail.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-io-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/jspSmartUplodeCN.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-email-1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-fileupload-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/mchange-commons-java-0.2.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/taglibs-standard-spec-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/taglibs-standard-compat-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/taglibs-standard-jstlel-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/mysql-connector-java-5.0.8-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
